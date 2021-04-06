@@ -11,3 +11,7 @@ hr {
     border-width: 3px;
     border-color: #17a2b8;
 }
+
+.card-img-top {
+    height: 150px;
+}
