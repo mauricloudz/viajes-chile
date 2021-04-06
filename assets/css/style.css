@@ -2,3 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    border-width: 3px;
+    border-color: #17a2b8;
+}
