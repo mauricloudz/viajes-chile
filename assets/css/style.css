@@ -5,6 +5,11 @@ html {
 body {
     background-color: black;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav p {
+    font-weight: 500;
 }
 
 svg {
@@ -20,6 +25,10 @@ hr {
 .card-img-top {
     height: 150px;
     object-fit: cover;
+}
+
+.card-title {
+    font-weight: 400;
 }
 
 footer .container {
