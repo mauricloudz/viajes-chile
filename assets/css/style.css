@@ -15,3 +15,11 @@ hr {
 .card-img-top {
     height: 150px;
 }
+
+footer .container {
+    padding: 0 7rem;
+}
+
+footer p {
+    font-size: 2rem;
+}
