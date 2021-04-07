@@ -91,25 +91,25 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mr-0 ml-md-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link pl-3" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Quienes Somos</a>
+                    <a class="nav-link pl-3" href="#about">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#destacados">Destacados</a>
+                    <a class="nav-link pl-3" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacto</a>
+                    <a class="nav-link pl-3" href="#contact">Contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <header id="inicio">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -132,13 +132,13 @@
         </div>
     </header>
 
-    <section id="about" class="my-5">
+    <section id="about" class="mt-5 d-none d-lg-block">
         <h2 class="text-center">¿Quienes somos?</h2>
         <div class="container">
             <hr>
             <div class="row p-3">
                 <div class="col-lg py-3">
-                    <div class="bg-info text-center"><i class="fas fa-plane fa-2x"></i></div>
+                    <div class="bg-info text-center" data-toggle="tooltip" data-placement="top" title="Viajes"><i class="fas fa-plane fa-2x"></i></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo tellus. Nulla
                         ullamcorper mi nec augue eleifend maximus nec eget turpis. Etiam dapibus, leo vel bibendum
                         condimentum, dolor eros mattis sem, eu faucibus massa nisl eget dui. Integer eget magna
@@ -153,10 +153,10 @@
                         efficitur justo facilisis scelerisque. Vestibulum tempor massa non odio porttitor ultrices.
                         Praesent ut libero sed odio ultrices congue. Vivamus ullamcorper eros mauris, ut maximus enim
                         lobortis sit amet. Suspendisse mi sapien, efficitur at quam id, gravida dignissim.</p>
-                    <div class="bg-info text-center"><i class="fas fa-mountain fa-2x"></i></div>
+                    <div class="bg-info text-center" data-toggle="tooltip" data-placement="bottom" title="Lugares"><i class="fas fa-mountain fa-2x"></i></div>
                 </div>
                 <div class="col-lg py-3">
-                    <div class="bg-info text-center"><i class="fas fa-route fa-2x"></i></div>
+                    <div class="bg-info text-center" data-toggle="tooltip" data-placement="top" title="Rutas"><i class="fas fa-route fa-2x"></i></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel leo tellus. Nulla
                         ullamcorper mi nec augue eleifend maximus nec eget turpis. Etiam dapibus, leo vel bibendum
                         condimentum, dolor eros mattis sem, eu faucibus massa nisl eget dui. Integer eget magna
@@ -168,10 +168,10 @@
         </div>
     </section>
 
-    <section id="destacados" class="container">
+    <section id="destacados" class="container mt-5">
         <h2 class="text-center">Destacados</h2>
         <hr>
-        <div class="p-5">
+        <div class="pt-5 px-5">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <div class="col mb-4">
                     <div class="card bg-info h-100">
@@ -233,10 +233,10 @@
                     <p class="text-center text-md-left py-auto my-auto"><b>VIAJES CHILE</b></p>
                 </div>
                 <div class="col-12 col-md-6 text-center text-md-right py-auto my-auto">
-                    <i class="fab fa-github-square fa-2x p-2"></i>
-                    <i class="fab fa-linkedin fa-2x p-2"></i>
-                    <i class="fab fa-twitter-square fa-2x p-2"></i>
-                    <i class="fab fa-facebook-square fa-2x p-2"></i>
+                    <a href="https://www.github.com/" target="_blank"><i class="fab fa-github-square fa-2x p-2" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x p-2" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x p-2" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x p-2" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
                 </div>
             </div>
         </div>
